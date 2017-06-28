@@ -1,6 +1,6 @@
-img, .nav, .text, .caption {
+img, .nav, .text, .caption, #containNav {
   display: inline-block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .nav, .text, .caption {
@@ -25,10 +25,15 @@ img, .nav, .text, .caption {
 
 @media only screen and (min-width: 480px) {
   .nav {
-    width: 100%
+    width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .nav {}
+  #containNav {
+    max-width: 768px;
+  }
+  .nav {
+    width: 100%;
+  }
 }
