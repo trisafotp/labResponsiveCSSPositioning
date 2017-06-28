@@ -1,0 +1,4 @@
+img, .nav, .text, .caption {
+  display: inline-block;
+  margin: 0 auto;
+}
